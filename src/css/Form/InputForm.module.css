@@ -1,0 +1,10 @@
+.inputForm{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #272635;
+    padding: 1rem;
+    width: 100%;
+    border: 1px solid #272635;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+}

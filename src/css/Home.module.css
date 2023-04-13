@@ -1,0 +1,41 @@
+.main{
+    margin-top: 105px;
+    margin-bottom: 65px ;
+    height: calc(100vh - 170px);
+    font-size: 1.5rem;
+}
+titulo{
+    text-align: center;
+}
+
+.wrapper, .wrapperVertical{
+    padding: 3rem 3rem ;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #cacaca;
+}
+.wrapperVertical{
+    flex-direction: column;
+}
+.wrapperVertical p{
+    padding: 3rem 20rem;
+}
+.horizontal{
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.pad{
+    margin: 3rem;
+    /* padding: 15px 15px; */
+}
+.wrapper img{
+    width: 250px;
+    border: .1rem solid #272635;
+    border-radius: .5rem;
+}

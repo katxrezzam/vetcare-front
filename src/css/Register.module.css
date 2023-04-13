@@ -1,0 +1,117 @@
+.register{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #272635;
+}
+.formRegister{
+    background-color: white;
+    max-width: 900px;
+    width: 100%;
+    padding: 30px;
+    margin: 0 15px;
+    border-radius: 6px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+.formRegister header{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #272635;
+}
+.formRegister form{
+    min-height: 460px;
+    margin-top: 16px;
+    padding: 10px;
+}
+.fields, .buttonField{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.buttonField{
+    margin: 15px 0;
+}
+.inputFields{
+    position: relative;
+    display: flex;
+    width: calc(100% / 2 - 15px);
+    flex-direction: column;
+    color: #272635;
+    margin: 4px 0;
+}
+.inputFields label, .inputEmail label{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.inputFields label svg, .inputEmail label svg{
+    margin-right: 5px;
+}
+.inputFields input, .inputEmail input{
+    outline: none;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #272635;
+    border: 1px solid #272635;
+    border-radius: 5px;
+    height: 42px;
+    padding: 15px;
+    margin: 8px 0;
+}
+.inputFields input:is(:focus, :valid), .inputEmail input:is(:focus, :valid), .registerButton:is(:focus, :valid){
+    box-shadow: 0 3px 6px rgba(0,0,0,0.13);
+}
+.inputEmail{
+    position: relative;
+}
+.inputEmail, .registerButton{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    color: #272635;
+    margin: 4px 0;
+}
+.registerButton{
+    justify-content: center;
+    align-items: center;
+    background-color: #B1E5F2;
+    border: none;
+    border-radius: 6px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.formLink{
+    margin-top: 20px;
+    text-align: center;
+}
+.formLink span,
+.formLink a {
+    font-size: 14px;
+    font-weight: 400;
+}
+.formLink a:hover{
+    text-decoration: underline;
+}
+.instructions{
+    position: absolute;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    background-color: #272635;
+    color: #fff;
+    padding: .5rem;
+    top: 80px;
+    z-index: 100;
+}
+.instructions svg{
+    margin-right: 5px;
+}
+.errorMsg{
+    text-align: center;
+    background-color: lightpink;
+    color: firebrick;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}

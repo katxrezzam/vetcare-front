@@ -1,0 +1,6 @@
+.main{
+    margin-top: 105px;
+    height: calc(100vh - 105px);
+    display: flex;
+}
+

@@ -1,0 +1,11 @@
+.carousel{
+    display: flex;
+    align-items: center;
+}
+.buttonField{
+    width: 50px;
+    height: 50px;
+}
+.buttonField button{
+    font-size: 2rem;
+}

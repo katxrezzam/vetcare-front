@@ -1,0 +1,73 @@
+.personalInfo{
+    position: relative;
+    border-right: 0.15rem solid #272635;
+}
+.formContainer{
+    width: 100%;
+    display: flex;
+}
+.personalInfo h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 2rem 0;
+}
+.personalInfo form{
+    padding: 5rem;
+}
+.profilePicture img{
+    width: 25rem;
+    height: 25rem;
+    border: 1px solid #272635;
+    border-radius: 0.5rem;
+    box-shadow: var(--box-shadow);
+}
+.fields, .profilePicture{
+    width: calc(100% / 2);
+}
+.profilePicture{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inputField{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
+}
+.inputField label{
+    font-size:  1.5rem;
+    font-weight: 500;
+    color: #272635;
+    margin-bottom: 5px;
+}
+.buttonField{
+    width: 100%;
+    height: 42px;
+}
+.successContent{
+    display: flex;
+    justify-content: center;
+}
+.successMsg{
+    background: #81BD53;
+    color: #1C3807;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 1.5rem;
+    border-radius: .5rem;
+}
+
+.buttonField button {
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.faEdit{
+    position: absolute;
+    top: 15rem;
+    right: 2rem;
+    width: 4rem;
+    height: 4rem;
+}
+.faEdit button{
+    font-size: 2rem;
+}

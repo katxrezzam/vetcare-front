@@ -1,0 +1,14 @@
+.main{
+    top: 105px;
+    position: relative;
+}
+.wrapper{
+    display: flex;
+    border-bottom: .3rem solid #272635;
+}
+.wrapper2{
+    display: flex;
+}
+.wrapper section, .wrapper2 section{
+    width: calc(100% / 2);
+}

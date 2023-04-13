@@ -1,0 +1,45 @@
+.addressCard{
+    position: relative;
+    width: calc(100% - 100px);
+    height: 125px;
+    border: 1px solid #272635;
+    box-shadow: var(--box-shadow);
+    border-radius: .5rem;
+    padding: 2rem 4rem;
+    margin: 2rem;
+    background: white;
+}
+.addressCard h3 svg{
+    margin-right: .5rem;
+}
+.addressCard h3{
+    font-size: 1.5rem;
+    padding-bottom: 0.5rem;
+
+}
+.cardBody{
+    display: grid;
+}
+.cardBody span{
+    font-size: 1.3rem;
+    margin: .05rem 0;
+    color: var(--ligth-color);
+}
+.addressEdit, .addressDelete{
+    color: #272635;
+    border-radius: .5rem;
+    position: absolute;
+    background: #B1E5F2;
+    cursor: pointer;
+    top: 1em;
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    box-shadow: var(--box-shadow);
+}
+.addressDelete{
+    right: 2rem;
+}
+.addressEdit{
+    right: 6rem;
+}

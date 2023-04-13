@@ -1,0 +1,34 @@
+.cardForm{
+    width: 900px;
+    padding: 1rem;
+    min-height: 350px;
+}
+
+.cardForm .fields, .singleField{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.cardForm .singleField{
+    flex-direction: column;
+}
+.cardForm .inputField{
+    width: calc(100% / 2 - 15px);
+    color: #272635;
+    margin: 4px 0;
+}
+.inputField input, .singleField input, .singleField button{
+    margin: 8px 0;
+    height: 42px;
+}
+
+.singleField button{
+    font-size: 1.6rem;
+}
+.inputField label, .singleField label{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.singleField label svg, .inputField label svg{
+    margin-right: 5px;
+}

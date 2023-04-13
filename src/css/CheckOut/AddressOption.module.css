@@ -1,0 +1,36 @@
+.cardAddressOption{
+    position: relative;
+    width: calc(100% - 100px);
+    height: 125px;
+    border: 1px solid #272635;
+    box-shadow: var(--box-shadow);
+    border-radius: .5rem;
+    padding: 2rem 4rem;
+    margin: 2rem;
+    background: white;
+}
+.addressCard h3{
+    font-size: 1.5rem;
+    padding-bottom: 0.5rem;
+}
+.cardBody{
+    display: grid;
+}
+.cardBody span{
+    font-size: 1.3rem;
+    margin: .05rem 0;
+    color: var(--ligth-color);
+}
+.cardAddressOption input{
+    width: 2rem;
+    height: 2rem;
+}
+.cardAddressOption input::before{
+    width: 1rem;
+    height: 1rem;
+}
+.radioButton{
+    position: absolute;
+    top: 45%;
+    left: 1rem;
+}

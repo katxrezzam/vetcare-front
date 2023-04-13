@@ -1,0 +1,87 @@
+.formAddress, .formPet{
+    width: 900px;
+    padding: 10px;
+}
+.formAddress{
+    min-height: 350px;
+}
+.formPet{
+    min-height: 200px;
+}
+.fields, .buttonField{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.buttonField{
+    margin: 15px 0;
+    height: 42px;
+}
+.buttonField button{
+    font-size: 1.7rem;
+}
+.inputField{
+    display: flex;
+    width: calc(100% / 2 - 15px);
+    flex-direction: column;
+    color: #272635;
+    margin: 4px 0;
+}
+.inputField input{
+    margin: 8px 0;
+}
+.inputField label{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.inputField label svg{
+    margin-right: 5px;
+}
+.registerButton, .successMsg, .errorMsg{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin: 4px 0;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 6px;
+    height: 42px;
+    font-weight: 600;
+    box-shadow: var(--box-shadow);
+}
+.registerButton{
+    background-color: #B1E5F2;
+    color: #272635;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.offScream{
+    display: none;
+}
+.errorMsg{
+    background-color: lightpink;
+    color: firebrick;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.groupRadio{
+    display: flex;
+    align-items: center;
+    border: 1px solid #272635;
+    border-radius: .5rem;
+    margin-top: 4px;
+    height: 42px;
+}
+.groupRadio input{
+    width: 1.15em;
+    height: 1.15em;
+}
+.groupRadio input::before{
+    width: 0.65em;
+    height: .65em;
+}
+.groupRadio label{
+    font-size: 1.3rem;
+    margin: 0 1.5rem;
+}

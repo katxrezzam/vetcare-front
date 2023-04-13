@@ -1,0 +1,26 @@
+.personalCard{
+    border-left: .15rem solid #272635;
+}
+.personalCard h1{
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 2rem 0;
+}
+.cardContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 10rem;
+}
+.cardEmpty{
+    font-size: 4rem;
+    margin: 1rem;
+    color: #666666;
+}
+.buttonField{
+    width: 75px;
+    height: 75px;
+}
+.buttonField button{
+    font-size: 2rem;
+}

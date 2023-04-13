@@ -1,0 +1,19 @@
+.navItem{
+    font-size: 1.7rem;
+    margin: 0 1rem;
+    color: white;
+}
+.navItem svg{
+    margin-right: 5px;
+}
+.navItem:hover{
+    color: var(--blizzard);
+}
+@media (max-width: 768px) {
+    .navItem{
+        font-size: 2rem;
+        color: #272635;
+        margin: 2rem 2.5rem;
+        display: block;
+    }
+}

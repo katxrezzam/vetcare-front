@@ -1,0 +1,60 @@
+.main{
+    margin-top: 105px;
+    height: calc(100vh - 105px);
+    display: flex;
+}
+.paymentProcess{
+    width: 70%;
+    height: 100%;
+}
+.paymentNavigation{
+    display: flex;
+    justify-content: center;
+}
+.paymentNavigation span {
+    text-align: center;
+    width: 350px;
+    padding: 2rem 10rem;
+    font-size: 2.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    user-select: none;
+}
+.paymentNavigation span.active{
+    border-bottom: 2px solid #272635;
+    color: #272635;
+    box-shadow: var(--box-shadow);
+}
+.paymentNavigation span.blur{
+    color: #CACACA;
+    border-bottom: 2px solid #CACACA;
+
+}
+.checkOutContainer{
+    display: flex;
+    height: 100%;
+}
+
+.addressContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.summary{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+    border-left: 2px solid #272635;
+}
+.summary h1{
+    font-size: 2rem;
+}
+.buttonField{
+    width: 300px;
+    height: 42px;
+}
+.buttonField button{
+    font-size: 2rem;
+}

@@ -1,0 +1,16 @@
+
+
+.closeMsg{
+    color: #E8E9F3;
+    border-radius: .5rem;
+    position: absolute;
+    background: none;
+    cursor: pointer;
+    right: 0;
+    width: 3rem;
+    height: 3rem;
+    font-size: 2rem;
+}
+.closeMsg:hover{
+    color: #272635;
+}

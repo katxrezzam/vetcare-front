@@ -1,0 +1,80 @@
+.login {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #272635;
+}
+.formLogin{
+    max-width: 430px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 6px;
+    background-color: white;
+}
+.formLogin header{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #272635;
+    text-align: center;
+}
+.formLogin form{
+    margin-top: 30px;
+}
+form .fieldInput, form .fieldButton{
+    width: 100%;
+    margin-top: 20px;
+}
+.fieldInput label{
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #272635;
+}
+.fieldInput label svg{
+    margin-right: 5px;
+}
+.fieldInput input, .fieldButton button{
+    height: 50px;
+    width: 100%;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: 400;
+    border-radius: 6px;
+}
+.fieldInput input{
+    margin: 8px 0;
+    outline: none;
+    padding: 0 15px;
+    border: 1px solid #272635;
+}
+.fieldButton button{
+    background: #B1E5F2;
+}
+.fieldButton button:hover{
+    cursor: pointer;
+}
+.formLink{
+    margin-top: 10px;
+    text-align: center;
+}
+.formLink span,
+.formLink a {
+    font-size: 14px;
+    font-weight: 400;
+}
+.formLink a:hover{
+    text-decoration: underline;
+}
+.errorMsg{
+    text-align: center;
+    background-color: lightpink;
+    color: firebrick;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.offScream{
+    position: absolute;
+    left: -9999px;
+}

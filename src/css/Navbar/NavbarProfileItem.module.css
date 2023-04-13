@@ -1,0 +1,11 @@
+.profilePortrait{
+   position: relative;
+   display: flex;
+   align-items: center;
+   cursor: pointer;
+}
+.profilePortrait img{
+   width: 6.5rem;
+   height: 6.5rem;
+   border-radius: 50%;
+}

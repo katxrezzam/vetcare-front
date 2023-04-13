@@ -1,0 +1,39 @@
+.searchForm{
+    position: absolute;
+    top: 110%; right: -112%;
+    width: 50rem;
+    height: 5rem;
+    background-color: white;
+    border-radius: .5rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    box-shadow: var(--box-shadow);
+}
+.searchForm.active{
+    right: 2rem;
+    transition: .2s linear;
+}
+.searchForm input{
+    height: 100%;
+    width: 100%;
+    background: none;
+    font-size: 1.6rem;
+    color: #272635;
+    padding: 0 1rem;
+}
+.searchForm button{
+    font-size: 2.2rem;
+    background-color: white;
+    padding-right: 1.5rem;
+    color: #272635;
+    cursor: pointer;
+}
+.searchForm button:hover{
+    color: #B1E5F2;
+}
+@media (max-width: 768px) {
+    .searchForm{
+        width: 90%;
+    }
+}

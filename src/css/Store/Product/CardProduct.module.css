@@ -1,0 +1,62 @@
+.cardProduct{
+    width: calc(100% - 10rem);
+    border: 1px solid #272635;
+    max-height: 140px;
+    box-shadow: var(--box-shadow);
+    background: #ffffff;
+    border-radius: .5rem;
+    margin: 2rem 0;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    position: relative;
+}
+.imageContainer{
+    width: 100px;
+    border: .15rem solid #272635;
+    border-radius: .5rem;
+    margin-right: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: var(--box-shadow);
+}
+.imageContainer img{
+    width: 100%;
+}
+.cardContainer{
+    display: grid;
+    color: #272635;
+}
+.cardContainer h1{
+    font-size: 2rem;
+}
+.cardContainer span{
+    margin: 1rem 0;
+    font-size: 1.3rem;
+}
+.cardContainer .price{
+    color: #666666;
+    font-size: 2rem;
+}
+.buttonShoppingCart{
+    top: 2rem;
+}
+.buttonShoppingNow{
+    bottom: 2rem;
+}
+.buttonShoppingCart, .buttonShoppingNow{
+    position: absolute;
+    right: 2rem;
+    box-shadow: var(--box-shadow);
+}
+.buttonShoppingCart button, .buttonShoppingNow button{
+    width: 250px;
+    height: 42px;
+    padding: 0 2rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.buttonShoppingCart button svg, .buttonShoppingNow button svg{
+    margin-right: 1rem;
+}
